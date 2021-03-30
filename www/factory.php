@@ -9,5 +9,3 @@ $factory = new PageFactory;
 $pdf = $factory->getPage('pdf');
 $pdf->createPage();
 $txt = $factory->getPage('txt');
-$txt->speed = 120;
-$txt->count(120);
